@@ -37,7 +37,7 @@
             },
             "filtersPerEntityType": {
                 "HOST": {
-                    "AUTO_TAGS": ["<< tag key >>:<< tag value >>"]
+                    "AUTO_TAGS": ["${host.tag.name}:<< tag value >>"]
                 }
             }
         },
@@ -76,7 +76,7 @@
             },
             "filtersPerEntityType": {
                 "SERVICE": {
-                    "AUTO_TAGS": ["<< tag key >>:<< tag value >>"]
+                    "AUTO_TAGS": ["${service.tag.name}:<< tag value >>"]
                 }
             }
         },
@@ -126,7 +126,7 @@
             },
             "filtersPerEntityType": {
                 "APPLICATION": {
-                    "AUTO_TAGS": ["<< tag key >>:<< tag value >>"]
+                    "AUTO_TAGS": ["${application.tag.name}:<< tag value >>"]
                 }
             }
         },
@@ -165,7 +165,7 @@
             },
             "filtersPerEntityType": {
                 "DATABASE": {
-                    "AUTO_TAGS": ["<< tag key >>:<< tag value >>"]
+                    "AUTO_TAGS": ["${database.tag.name}:<< tag value >>"]
                 }
             }
         },
