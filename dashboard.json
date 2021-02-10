@@ -27,8 +27,8 @@
         "tileFilter": {},
         "filterConfig": {
             "type": "HOST",
-            "customName": "<< tag value >>",
-            "defaultName": "<< tag value >>",
+            "customName": "${host.tag.value}",
+            "defaultName": "${host.tag.value}",
             "chartConfig": {
                 "legendShown": true,
                 "type": "TIMESERIES",
@@ -37,7 +37,7 @@
             },
             "filtersPerEntityType": {
                 "HOST": {
-                    "AUTO_TAGS": ["${host.tag.name}:<< tag value >>"]
+                    "AUTO_TAGS": ["${host.tag.name}:${host.tag.value}"]
                 }
             }
         },
@@ -66,8 +66,8 @@
         "tileFilter": {},
         "filterConfig": {
             "type": "SERVICE",
-            "customName": "<< tag value >>",
-            "defaultName": "<< tag value >>",
+            "customName": "${service.tag.value}",
+            "defaultName": "${service.tag.value}",
             "chartConfig": {
                 "legendShown": true,
                 "type": "TIMESERIES",
@@ -76,7 +76,7 @@
             },
             "filtersPerEntityType": {
                 "SERVICE": {
-                    "AUTO_TAGS": ["${service.tag.name}:<< tag value >>"]
+                    "AUTO_TAGS": ["${service.tag.name}:${service.tag.value}"]
                 }
             }
         },
@@ -116,8 +116,8 @@
         "tileFilter": {},
         "filterConfig": {
             "type": "APPLICATION",
-            "customName": "<< tag value >>",
-            "defaultName": "<< tag value >>",
+            "customName": "${application.tag.value}",
+            "defaultName": "${application.tag.value}",
             "chartConfig": {
                 "legendShown": true,
                 "type": "TIMESERIES",
@@ -126,7 +126,7 @@
             },
             "filtersPerEntityType": {
                 "APPLICATION": {
-                    "AUTO_TAGS": ["${application.tag.name}:<< tag value >>"]
+                    "AUTO_TAGS": ["${application.tag.name}:${application.tag.value}"]
                 }
             }
         },
@@ -155,8 +155,8 @@
         "tileFilter": {},
         "filterConfig": {
             "type": "DATABASE",
-            "customName": "<< tag value >>",
-            "defaultName": "<< tag value >>",
+            "customName": "${database.tag.value}",
+            "defaultName": "${database.tag.value}",
             "chartConfig": {
                 "legendShown": true,
                 "type": "TIMESERIES",
@@ -165,7 +165,7 @@
             },
             "filtersPerEntityType": {
                 "DATABASE": {
-                    "AUTO_TAGS": ["${database.tag.name}:<< tag value >>"]
+                    "AUTO_TAGS": ["${database.tag.name}:${database.tag.value}"]
                 }
             }
         },
