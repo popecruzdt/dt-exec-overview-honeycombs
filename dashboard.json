@@ -15,7 +15,7 @@
         "tags": ["Executive", "Overview", "Start Here"]
     },
     "tiles": [{
-        "name": "!hosts",
+        "name": "!host",
         "tileType": "HOSTS",
         "configured": true,
         "bounds": {
@@ -37,7 +37,7 @@
             },
             "filtersPerEntityType": {
                 "HOST": {
-                    "AUTO_TAGS": ["${host.tag.value.tag}:${host.tag.value.val}"]
+                    "AUTO_TAGS": ["${host}:${host.tag.value.val}"]
                 }
             }
         },
