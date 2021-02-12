@@ -27,8 +27,8 @@
         "tileFilter": {},
         "filterConfig": {
             "type": "HOST",
-            "customName": "${host}",
-            "defaultName": "${host}",
+            "customName": "${host.val}",
+            "defaultName": "${host.val}",
             "chartConfig": {
                 "legendShown": true,
                 "type": "TIMESERIES",
