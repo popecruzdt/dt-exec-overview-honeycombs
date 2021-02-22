@@ -5,7 +5,7 @@
     },
     "id": "6c3d6f68-4b79-459a-b157-5eec91c70887",
     "dashboardMetadata": {
-        "name": "${dashboard_name}",
+        "name": "Executive Overview (Honeycombs)",
         "shared": false,
         "owner": "anthony.pope-cruz@dynatrace.com",
         "sharingDetails": {
