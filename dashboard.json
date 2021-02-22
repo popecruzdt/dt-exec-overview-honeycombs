@@ -27,8 +27,8 @@
         "tileFilter": {},
         "filterConfig": {
             "type": "HOST",
-            "customName": "${host.tag.value}",
-            "defaultName": "${host.tag.value}",
+            "customName": "${host.val}",
+            "defaultName": "${host.val}",
             "chartConfig": {
                 "legendShown": true,
                 "type": "TIMESERIES",
@@ -37,7 +37,7 @@
             },
             "filtersPerEntityType": {
                 "HOST": {
-                    "AUTO_TAGS": ["${host}:${host.tag.value.val}"]
+                    "AUTO_TAGS": ["${host}:${host.val}"]
                 }
             }
         },
