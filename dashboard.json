@@ -5,7 +5,7 @@
     },
     "id": "6c3d6f68-4b79-459a-b157-5eec91c70887",
     "dashboardMetadata": {
-        "name": "Executive Overview (Honeycomb) Template",
+        "name": "${dashboard_name}",
         "shared": false,
         "owner": "anthony.pope-cruz@dynatrace.com",
         "sharingDetails": {
@@ -54,7 +54,7 @@
         },
         "tileFilter": {}
     }, {
-        "name": "!services",
+        "name": "!service",
         "tileType": "SERVICES",
         "configured": true,
         "bounds": {
@@ -66,8 +66,8 @@
         "tileFilter": {},
         "filterConfig": {
             "type": "SERVICE",
-            "customName": "${service.tag.value}",
-            "defaultName": "${service.tag.value}",
+            "customName": "${service.val}",
+            "defaultName": "${service.val}",
             "chartConfig": {
                 "legendShown": true,
                 "type": "TIMESERIES",
@@ -76,7 +76,7 @@
             },
             "filtersPerEntityType": {
                 "SERVICE": {
-                    "AUTO_TAGS": ["${service.tag.value.tag}:${service.tag.value.val}"]
+                    "AUTO_TAGS": ["${service}:${service.val}"]
                 }
             }
         },
