@@ -1,5 +1,6 @@
 ## Executive Overview (Honeycombs)
 Executive Overview (Honeycombs) Dashboard for BizOpsConfigurator
+
 ![Executive Overview (Honeycombs)](https://raw.githubusercontent.com/popecruzdt/dt-exec-overview-honeycombs/main/dashboard_screenshot.png)
 
 ## Summary:
@@ -19,4 +20,5 @@ This dashboard utilizes the application, service, database, and host "health" ti
   * Hosts -> Tag your Hosts with a single common tag and different tag values
 
 Example automated tagging rules:
+
 ![Tagging Rules](https://raw.githubusercontent.com/popecruzdt/dt-exec-overview-honeycombs/main/tagging_screenshot.png)
