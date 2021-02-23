@@ -1,6 +1,6 @@
 ## Executive Overview (Honeycombs)
 Executive Overview (Honeycombs) Dashboard for BizOpsConfigurator
-![Executive Overview (Honeycombs)](dashboard_screenshot.png)
+![Executive Overview (Honeycombs)](https://raw.githubusercontent.com/popecruzdt/dt-exec-overview-honeycombs/main/dashboard_screenshot.png)
 
 ## Summary:
 This repo is a collection of JSON files designed for automating the deployment of the executive overview (honeycombs) dashboard in Dynatrace, with the BizOpsConfigurator.
